@@ -296,11 +296,11 @@ textarea {
 .full-page,
 .page-loading {
 	a {
-		color: var(--tertiary-font-color);
+		color: #000000;
 	}
 
 	a:hover {
-		color: var(--primary-background-contrast);
+		color: #38b40a;
 	}
 }
 
@@ -452,7 +452,7 @@ label.required::after {
 }
 
 .loading-animation.loading-animation--primary > .bounce {
-	background-color: var(--primary-font-color);
+	background-color: #ffffff;
 }
 
 @keyframes blink {

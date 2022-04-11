@@ -2758,7 +2758,7 @@
 
 .full-page,
 .page-loading {
-	background-color: var(--rc-color-primary);
+	background-color: white;
 }
 
 .rc-old.full-page {
@@ -2793,7 +2793,7 @@
 	& .logo {
 		display: block;
 
-		width: 100%;
+		width: 60%;
 		max-width: 520px;
 		margin: 0 auto;
 		padding: 0 20px;

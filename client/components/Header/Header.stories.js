@@ -78,7 +78,7 @@ export const ChatHeader = () => {
 const toolboxRoom = {
 	...room,
 	msgs: 2,
-	u: { username: 'rocket.cat' },
+	u: { username: 'spotagent.connect' },
 	usersCount: 2,
 };
 

@@ -44,7 +44,7 @@
 	--rc-color-alert-light: var(--color-dark-yellow);
 	--rc-color-success: var(--color-green);
 	--rc-color-success-light: #25d198;
-	--rc-color-button-primary: var(--color-blue);
+	--rc-color-button-primary: #0ab507;
 	--rc-color-button-primary-light: var(--color-dark-blue);
 	--rc-color-alert-message-primary: var(--color-blue);
 	--rc-color-alert-message-primary-background: #f1f6ff;
@@ -52,8 +52,8 @@
 	--rc-color-alert-message-secondary-background: #fafff1;
 	--rc-color-alert-message-warning: #d52d24;
 	--rc-color-alert-message-warning-background: #fff3f3;
-	--rc-color-primary: var(--color-dark);
-	--rc-color-primary-background: var(--color-dark);
+	--rc-color-primary: var(--color-white);
+	--rc-color-primary-background: #ffffff;
 	--rc-color-primary-darkest: var(--color-darkest);
 	--rc-color-primary-dark: var(--color-dark-medium);
 	--rc-color-primary-light: var(--color-gray);
@@ -71,11 +71,11 @@
 	/* #region colors Old Colors */
 	--content-background-color: #ffffff;
 	--primary-background-color: #04436a;
-	--primary-font-color: #444444;
+	--primary-font-color: #101010;
 	--primary-action-color: #1d74f5;
 	--secondary-background-color: #f4f4f4;
 	--secondary-font-color: #a0a0a0;
-	--secondary-action-color: #dddddd;
+	--secondary-action-color: #08a815;
 	--component-color: #f2f3f5;
 	--pending-color: #fcb316;
 	--error-color: #bc2031;
@@ -86,9 +86,9 @@
 	/* #endregion */
 
 	/* #region less-colors Old Colors (minor) */
-	--tertiary-font-color: var(--transparent-lightest);
-	--link-font-color: var(--primary-action-color);
-	--info-font-color: var(--secondary-font-color);
+	--tertiary-font-color: #000000;
+	--link-font-color: #0ea20b;
+	--info-font-color: #079105;
 	--custom-scrollbar-color: var(--transparent-darker);
 
 	/* #endregion */
@@ -160,7 +160,7 @@
 	--button-border-radius: var(--border-radius);
 	--button-disabled-background: var(--color-gray-light);
 	--button-disabled-text-color: var(--color-white);
-	--button-primary-background: var(--rc-color-button-primary);
+	--button-primary-background: #0ab507;
 	--button-primary-text-color: var(--color-white);
 	--button-cancel-color: var(--rc-color-error);
 	--button-secondary-background: var(--color-gray-medium);
@@ -321,9 +321,9 @@
 	* Mention link
 	*/
 	--mention-link-radius: 4px;
-	--mention-link-background: #fff6d6;
+	--mention-link-background: #0db729;
 	--mention-link-text-color: #b68d00;
-	--mention-link-me-background: #ffe9ec;
+	--mention-link-me-background: #38b40a;
 	--mention-link-me-text-color: var(--color-red);
 	--mention-link-group-background: #fde8d7;
 	--mention-link-group-text-color: var(--color-orange);
