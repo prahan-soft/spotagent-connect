@@ -11,7 +11,7 @@ const SidebarFooter = (): ReactElement => {
 	const sidebarFooterStyle = css`
 		& img {
 			max-width: 100%;
-			width:80%;
+			width: 80%;
 			height: 130%;
 		}
 
