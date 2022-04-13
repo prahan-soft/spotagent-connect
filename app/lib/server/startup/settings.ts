@@ -816,7 +816,7 @@ settingsRegistry.addGroup('General', function () {
 			public: true,
 		},
 	);
-	this.add('Site_Name', 'Rocket.Chat', {
+	this.add('Site_Name', 'Spotagent', {
 		type: 'string',
 		public: true,
 		wizard: {
