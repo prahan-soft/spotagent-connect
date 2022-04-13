@@ -19,14 +19,14 @@ describe('[Channel]', () => {
 	});
 	describe('[Search]', () => {
 		describe('[SpotlightSearch]', () => {
-			describe('rocket.cat:', () => {
+			describe('spotagent:', () => {
 				it('it should search rocket cat', () => {
 					sideNav.spotlightSearchIcon.click();
-					sideNav.searchChannel('rocket.cat');
+					sideNav.searchChannel('spotagent');
 				});
 
-				it('it should start a direct message with rocket.cat', () => {
-					mainContent.channelTitle.should('contain', 'rocket.cat');
+				it('it should start a direct message with spotagent', () => {
+					mainContent.channelTitle.should('contain', 'spotagent');
 				});
 			});
 
@@ -57,13 +57,13 @@ describe('[Channel]', () => {
 			before(() => {
 				mainContent.messageInput.click();
 			});
-			describe('rocket.cat:', () => {
+			describe('spotagent:', () => {
 				it('it should show the rocket cat in the direct messages list', () => {
-					sideNav.getChannelFromList('rocket.cat').scrollIntoView().should('be.visible');
+					sideNav.getChannelFromList('spotagent').scrollIntoView().should('be.visible');
 				});
 
 				it('it should go to the rocket cat direct message', () => {
-					sideNav.openChannel('rocket.cat');
+					sideNav.openChannel('spotagent');
 				});
 			});
 

@@ -26,8 +26,8 @@ describe('[Administration]', () => {
 			before(() => {
 				admin.infoLink.click();
 			});
-			it('the first title should be Rocket.Chat', () => {
-				admin.infoRocketChatTableTitle.should('contain', 'Rocket.Chat');
+			it('the first title should be SpotAgent', () => {
+				admin.infoRocketChatTableTitle.should('contain', 'SpotAgent');
 			});
 
 			it('it should show the rocket chat table', () => {
@@ -195,7 +195,7 @@ describe('[Administration]', () => {
 				admin.usersFilter.should('be.visible');
 			});
 
-			it('it should show rocket.cat', () => {
+			it('it should show spotagent', () => {
 				// it cant find the user if there is too many users
 				admin.usersRocketCat.should('be.visible');
 			});
@@ -203,7 +203,7 @@ describe('[Administration]', () => {
 			describe('filter text:', () => {
 				before(() => {
 					admin.usersFilter.click();
-					admin.usersFilter.type('Rocket.Cat');
+					admin.usersFilter.type('spotagent');
 				});
 
 				after(() => {
@@ -211,7 +211,7 @@ describe('[Administration]', () => {
 					admin.usersFilter.type('');
 				});
 
-				it('it should show rocket.cat', () => {
+				it('it should show spotagent', () => {
 					admin.usersRocketCat.waitForVisible();
 					admin.usersRocketCat.should('be.visible');
 				});
@@ -228,7 +228,7 @@ describe('[Administration]', () => {
 					admin.usersFilter.type('');
 				});
 
-				it('it should not show rocket.cat', () => {
+				it('it should not show spotagent', () => {
 					admin.usersRocketCat.should('not.be.visible');
 				});
 			});
@@ -620,7 +620,7 @@ describe('[Administration]', () => {
 					admin.generalReporting.parent().scrollIntoView();
 				});
 
-				it('it should show the report to rocket.chat toggle', () => {
+				it('it should show the report to spotagent toggle', () => {
 					admin.generalReporting.parent().should('be.visible');
 				});
 			});

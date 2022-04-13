@@ -3,7 +3,7 @@ import { Mongo } from 'meteor/mongo';
 
 export class Base {
 	_baseName() {
-		return 'rocketchat_';
+		return 'spotagent_';
 	}
 
 	_initModel(name) {

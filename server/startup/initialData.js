@@ -20,8 +20,8 @@ Meteor.startup(async function () {
 	if (!Users.findOneById('rocket.cat')) {
 		Users.create({
 			_id: 'rocket.cat',
-			name: 'Rocket.Cat',
-			username: 'rocket.cat',
+			name: 'SpotAgent',
+			username: 'spotagent',
 			status: 'online',
 			statusDefault: 'online',
 			utcOffset: 0,

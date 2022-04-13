@@ -82,10 +82,10 @@ describe('The AppMessagesConverter instance', function () {
 				t: 'uj',
 				rid: 'GENERAL',
 				ts: new Date('2019-03-30T01:22:08.389Z'),
-				msg: 'rocket.cat',
+				msg: 'spotagent',
 				u: {
 					_id: 'rocket.cat',
-					username: 'rocket.cat',
+					username: 'spotagent',
 				},
 				groupable: false,
 				_updatedAt: new Date('2019-03-30T01:22:08.412Z'),
@@ -126,8 +126,8 @@ describe('The AppMessagesConverter instance', function () {
 			expect(rocketchatMessage).to.have.property('_updatedAt').which.equalTime(updatedAt);
 			expect(rocketchatMessage).to.have.property('u').which.includes({
 				_id: 'rocket.cat',
-				username: 'rocket.cat',
-				name: 'Rocket.Cat',
+				username: 'spotagent',
+				name: 'SpotAgent',
 			});
 		});
 

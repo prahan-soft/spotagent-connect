@@ -19,7 +19,7 @@ export const getBannerForAdmins = Meteor.bindEnvironment((expireAt: Date): Omit<
 		roles: ['admin'],
 		createdBy: {
 			_id: 'rocket.cat',
-			username: 'rocket.cat',
+			username: 'spotagent',
 		},
 		_updatedAt: new Date(),
 		view: {

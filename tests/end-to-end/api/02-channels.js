@@ -1046,7 +1046,7 @@ describe('[Channels]', function () {
 										name: 'Incoming test',
 										enabled: true,
 										alias: 'test',
-										username: 'rocket.cat',
+										username: 'spotagent',
 										scriptEnabled: false,
 										channel: `#${createdChannel.name}`,
 									},

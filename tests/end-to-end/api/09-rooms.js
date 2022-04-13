@@ -284,7 +284,7 @@ describe('[Rooms]', function () {
 			});
 		});
 		it('create a direct message', (done) => {
-			createRoom({ type: 'd', username: 'rocket.cat' }).end((err, res) => {
+			createRoom({ type: 'd', username: 'spotagent' }).end((err, res) => {
 				directMessageChannel = res.body.room;
 				done();
 			});
@@ -392,8 +392,8 @@ describe('[Rooms]', function () {
 				done();
 			});
 		});
-		it('create a Direct message room with rocket.cat', (done) => {
-			createRoom({ type: 'd', username: 'rocket.cat' }).end((err, res) => {
+		it('create a Direct message room with spotagent', (done) => {
+			createRoom({ type: 'd', username: 'spotagent' }).end((err, res) => {
 				testDM = res.body.room;
 				done();
 			});
@@ -512,8 +512,8 @@ describe('[Rooms]', function () {
 				done();
 			});
 		});
-		it('create a Direct message room with rocket.cat', (done) => {
-			createRoom({ type: 'd', username: 'rocket.cat' }).end((err, res) => {
+		it('create a Direct message room with spotagent', (done) => {
+			createRoom({ type: 'd', username: 'spotagent' }).end((err, res) => {
 				testDM = res.body.room;
 				done();
 			});
@@ -829,7 +829,7 @@ describe('[Rooms]', function () {
 					prid: testChannel._id,
 					t_name: `discussion-create-from-tests-${testChannel.name}`,
 					reply: 'reply from discussion tests',
-					users: ['rocket.cat'],
+					users: ['spotagent'],
 				})
 				.expect(200)
 				.expect((res) => {
@@ -848,7 +848,7 @@ describe('[Rooms]', function () {
 					prid: testChannel._id,
 					t_name: `discussion-create-from-tests-${testChannel.name}`,
 					reply: 'reply from discussion tests',
-					users: ['rocket.cat'],
+					users: ['spotagent'],
 					pmid: messageSent._id,
 				})
 				.expect(200)
@@ -1079,7 +1079,7 @@ describe('[Rooms]', function () {
 		before(async () => {
 			testUser = await createUser();
 
-			const rocketcat = 'rocket.cat';
+			const rocketcat = 'spotagent';
 			const usernames = [testUser.username, rocketcat].join(',');
 
 			const result = await request.post(api('dm.create')).set(credentials).send({
@@ -1107,7 +1107,7 @@ describe('[Rooms]', function () {
 							.query({ roomId })
 							.end((err, res) => {
 								const { subscription } = res.body;
-								expect(subscription.name).to.equal(`rocket.cat,changed.username.${testUser.username}`);
+								expect(subscription.name).to.equal(`spotagent,changed.username.${testUser.username}`);
 								done();
 							});
 					});
@@ -1132,7 +1132,7 @@ describe('[Rooms]', function () {
 							.query({ roomId })
 							.end((err, res) => {
 								const { subscription } = res.body;
-								expect(subscription.fname).to.equal(`changed.name.${testUser.username}, Rocket.Cat`);
+								expect(subscription.fname).to.equal(`changed.name.${testUser.username}, spotagent`);
 								done();
 							});
 					});

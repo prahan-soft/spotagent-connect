@@ -483,7 +483,7 @@ export default class RocketAdapter {
 				}
 			}
 			if (slackMessage.subtype === 'bot_message') {
-				rocketUser = Users.findOneById('rocket.cat', { fields: { username: 1 } });
+				rocketUser = Users.findOneById('spotagent', { fields: { username: 1 } });
 			}
 
 			if (slackMessage.pinned_to && slackMessage.pinned_to.indexOf(slackMessage.channel) !== -1) {

@@ -56,7 +56,7 @@ export const getAndCreateNpsSurvey = Meteor.bindEnvironment(async function getNp
 			roles: surveyData.roles,
 			createdBy: {
 				_id: 'rocket.cat',
-				username: 'rocket.cat',
+				username: 'spotagent',
 			},
 			view: surveyData.survey,
 		};

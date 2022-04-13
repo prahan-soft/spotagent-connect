@@ -53,7 +53,7 @@ const PreferencesNotificationsSection = ({ onChange, commitRef, ...props }) => {
 
 	const onSendNotification = useCallback(() => {
 		KonchatNotification.notify({
-			payload: { sender: { username: 'rocket.cat' } },
+			payload: { sender: { username: 'spotagent' } },
 			title: t('Desktop_Notification_Test'),
 			text: t('This_is_a_desktop_notification'),
 		});

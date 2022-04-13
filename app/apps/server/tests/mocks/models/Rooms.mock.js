@@ -17,10 +17,10 @@ export class RoomsMock extends BaseModelMock {
 				t: 'uj',
 				rid: 'GENERAL',
 				ts: new Date('2019-03-30T01:22:08.389Z'),
-				msg: 'rocket.cat',
+				msg: 'spotagent',
 				u: {
 					_id: 'rocket.cat',
-					username: 'rocket.cat',
+					username: 'spotagent',
 				},
 				groupable: false,
 				_updatedAt: new Date('2019-03-30T01:22:08.412Z'),
@@ -44,7 +44,7 @@ export class RoomsMock extends BaseModelMock {
 			},
 			servedBy: {
 				_id: 'rocket.cat',
-				username: 'rocket.cat',
+				username: 'spotagent',
 				ts: new Date('2019-04-06T03:56:17.040Z'),
 			},
 			cl: false,
@@ -86,7 +86,7 @@ export class RoomsMock extends BaseModelMock {
 			},
 			responseBy: {
 				_id: 'rocket.cat',
-				username: 'rocket.cat',
+				username: 'spotagent',
 			},
 		},
 	};

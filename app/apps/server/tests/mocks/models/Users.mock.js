@@ -6,8 +6,8 @@ export class UsersMock extends BaseModelMock {
 			_id: 'rocket.cat',
 			createdAt: new Date('2019-03-27T20:51:36.821Z'),
 			avatarOrigin: 'local',
-			name: 'Rocket.Cat',
-			username: 'rocket.cat',
+			name: 'SpotAgent',
+			username: 'spotagent',
 			status: 'online',
 			statusDefault: 'online',
 			utcOffset: 0,
@@ -21,7 +21,7 @@ export class UsersMock extends BaseModelMock {
 	static convertedData = {
 		'rocket.cat': {
 			id: 'rocket.cat',
-			username: 'rocket.cat',
+			username: 'spotagent',
 			emails: [
 				{
 					address: 'rocketcat@rocket.chat',
@@ -30,7 +30,7 @@ export class UsersMock extends BaseModelMock {
 			],
 			type: 'bot',
 			isEnabled: true,
-			name: 'Rocket.Cat',
+			name: 'SpotAgent',
 			roles: ['bot'],
 			status: 'online',
 			statusConnection: 'online',

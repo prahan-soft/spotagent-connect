@@ -444,7 +444,7 @@ export class ChatMessages {
 						ts: new Date(),
 						msg: TAPi18n.__('No_such_command', { command: escapeHTML(match[1]) }),
 						u: {
-							username: settings.get('InternalHubot_Username') || 'rocket.cat',
+							username: settings.get('InternalHubot_Username') || 'spotagent',
 						},
 						private: true,
 					};
