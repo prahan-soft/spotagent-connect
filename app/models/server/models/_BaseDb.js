@@ -10,7 +10,7 @@ import { getOplogHandle } from './_oplogHandle';
 import { SystemLogger } from '../../../../server/lib/logger/system';
 import { isRunningMs } from '../../../../server/lib/isRunningMs';
 
-const baseName = 'rocketchat_';
+const baseName = 'spotagent_';
 
 export const trash = new Mongo.Collection(`${baseName}_trash`);
 try {

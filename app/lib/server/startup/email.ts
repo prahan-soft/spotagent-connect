@@ -29,7 +29,7 @@ settingsRegistry.addGroup('Email', function () {
 	.btn {
 		text-decoration: none;
 		color: #FFF;
-		background-color: #1D74F5;
+		background-color: #48db0d;
 		padding: 12px 18px;
 		font-weight: 500;
 		font-size: 14px;
@@ -144,7 +144,7 @@ settingsRegistry.addGroup('Email', function () {
 	this.section('Header_and_Footer', function () {
 		this.add(
 			'Email_Header',
-			'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><!-- If you delete this tag, the sky will fall on your head --><meta name="viewport" content="width=device-width" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Rocket.Chat Cloud</title></head><body bgcolor="#F7F8FA"><table class="body" bgcolor="#F7F8FA" width="100%"><tr><td><!-- HEADER --><table class="wrap" bgcolor="#F7F8FA"><tr><td class="header container"><div class="header-content"><table bgcolor="#F7F8FA" width="100%"><tr><td><img src="[Site_Url_Slash]assets/logo.png" alt="Rocket.chat" width="150px" /></td></tr></table></div></td></tr></table><!-- /HEADER --></td></tr><tr><td><!-- BODY --><table class="wrap"><tr><td class="container" bgcolor="#FFFFFF"><div class="content"><table><tr><td>',
+			'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><!-- If you delete this tag, the sky will fall on your head --><meta name="viewport" content="width=device-width" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Spotagent</title></head><body bgcolor="#F7F8FA"><table class="body" bgcolor="#F7F8FA" width="100%"><tr><td><!-- HEADER --><table class="wrap" bgcolor="#F7F8FA"><tr><td class="header container"><div class="header-content"><table bgcolor="#F7F8FA" width="100%"><tr><td><img src="https://spotagent.help/wp-content/uploads/2021/10/Untitled-2-RecoveredFR4-1-1.png" alt="Spotagent" width="350px" /></td></tr></table></div></td></tr></table><!-- /HEADER --></td></tr><tr><td><!-- BODY --><table class="wrap"><tr><td class="container" bgcolor="#FFFFFF"><div class="content"><table><tr><td>',
 			{
 				type: 'code',
 				code: 'text/html',
@@ -154,7 +154,7 @@ settingsRegistry.addGroup('Email', function () {
 		);
 		this.add(
 			'Email_Footer',
-			'</td></tr></table></div></td></tr></table><!-- /BODY --></td></tr><tr style="margin: 0; padding: 0;"><td style="margin: 0; padding: 0;"><!-- FOOTER --><table class="wrap"><tr><td class="container"><!-- content --><div class="content"><table width="100%"><tr><td align="center" class="social"><a href="https://rocket.chat/blog">Blog</a> | <a href="https://github.com/RocketChat">Github</a> | <a href="https://www.facebook.com/RocketChatApp">Facebook</a> | <a href="https://www.instagram.com/rocket.chat">Instagram</a></td></tr><tr><td align="center"><h6>© Rocket.Chat Technologies Corp.</h6><h6>Made with ❤️ in 🇧🇷 🇨🇦 🇩🇪 🇮🇳 🇬🇧 🇺🇸 </h6></td></tr></table></div><!-- /content --></td></tr></table><!-- /FOOTER --></td></tr></table></body></html>',
+			'</td></tr></table></div></td></tr></table><!-- /BODY --></td></tr><tr style="margin: 0; padding: 0;"><td style="margin: 0; padding: 0;"><!-- FOOTER --><table class="wrap"><tr><td class="container"><!-- content --><div class="content"><table width="100%"><tr><td align="center" class="social"><a href="https://twitter.com/SpotagentHelp">Twitter</a> | <a href="https://github.com/prahan-soft/spotagent-chat">Github</a> | <a href="https://www.facebook.com/SpotAgent1/?ref=pages_you_manage">Facebook</a> | <a href="https://www.instagram.com/spotagent.help/">Instagram</a></td></tr><tr><td align="center"><h4>© Spotagent.pvt.ltd</h4><h5>Made with ❤️ in 🇮🇳 </h5></td></tr></table></div><!-- /content --></td></tr></table><!-- /FOOTER --></td></tr></table></body></html>',
 			{
 				type: 'code',
 				code: 'text/html',
