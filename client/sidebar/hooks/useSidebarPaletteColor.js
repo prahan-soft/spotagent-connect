@@ -163,8 +163,8 @@ const getStyle = (
 			--rcx-button-colors-ghost-active-border-color: ${toVar(colors.n900)};
 			--rcx-button-colors-ghost-active-background-color: ${toVar(colors.n800)};
 			--rcx-button-colors-ghost-color: ${toVar(colors.n600)};
-			--rcx-button-colors-ghost-border-color: ${toVar(colors.sibebarSurface)};
-			--rcx-button-colors-ghost-background-color: ${toVar(colors.sibebarSurface)};
+			--rcx-button-colors-ghost-border-color: #2f343d;
+			--rcx-button-colors-ghost-background-color: #2f343d;
 			--rcx-button-colors-ghost-hover-background-color: ${toVar(colors.n900)};
 			--rcx-button-colors-ghost-hover-border-color: ${toVar(colors.n900)};
 
@@ -188,7 +188,7 @@ const getStyle = (
 			--rcx-color-foreground-hint: ${toVar(colors.n600)};
 		}
 		.rcx-sidebar {
-			background-color: ${toVar(colors.sibebarSurface)};
+			background-color: #2f343d;
 		}
 	`
 )(isIE11 ? ':root' : modifier);

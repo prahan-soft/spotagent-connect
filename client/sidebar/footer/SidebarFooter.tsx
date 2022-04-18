@@ -11,8 +11,8 @@ const SidebarFooter = (): ReactElement => {
 	const sidebarFooterStyle = css`
 		& img {
 			max-width: 100%;
-			width: 80%;
-			height: 150%;
+			width: 70%;
+			height: 130%;
 		}
 
 		& a:any-link {
@@ -34,7 +34,7 @@ const SidebarFooter = (): ReactElement => {
 				is='footer'
 				pb='x12'
 				pi='x16'
-				height='x50'
+				height='x54'
 				width='auto'
 				className={sidebarFooterStyle}
 				dangerouslySetInnerHTML={{ __html: String(settings.get('Layout_Sidenav_Footer')).trim() }}
