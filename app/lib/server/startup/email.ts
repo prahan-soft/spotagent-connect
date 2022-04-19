@@ -29,7 +29,7 @@ settingsRegistry.addGroup('Email', function () {
 	.btn {
 		text-decoration: none;
 		color: #FFF;
-		background-color: #48db0d;
+		background-color: #3b9b08;
 		padding: 12px 18px;
 		font-weight: 500;
 		font-size: 14px;
